@@ -1,0 +1,9 @@
+C:\CODE\CODE\C# CODE\GioiThieuBanThan\GioiThieuBanThan\bin\Debug\GioiThieuBanThan.exe.config
+C:\CODE\CODE\C# CODE\GioiThieuBanThan\GioiThieuBanThan\bin\Debug\GioiThieuBanThan.exe
+C:\CODE\CODE\C# CODE\GioiThieuBanThan\GioiThieuBanThan\bin\Debug\GioiThieuBanThan.pdb
+C:\CODE\CODE\C# CODE\GioiThieuBanThan\GioiThieuBanThan\obj\Debug\GioiThieuBanThan.csprojAssemblyReference.cache
+C:\CODE\CODE\C# CODE\GioiThieuBanThan\GioiThieuBanThan\obj\Debug\GioiThieuBanThan.Form1.resources
+C:\CODE\CODE\C# CODE\GioiThieuBanThan\GioiThieuBanThan\obj\Debug\GioiThieuBanThan.Properties.Resources.resources
+C:\CODE\CODE\C# CODE\GioiThieuBanThan\GioiThieuBanThan\obj\Debug\GioiThieuBanThan.csproj.GenerateResource.cache
+C:\CODE\CODE\C# CODE\GioiThieuBanThan\GioiThieuBanThan\obj\Debug\GioiThieuBanThan.exe
+C:\CODE\CODE\C# CODE\GioiThieuBanThan\GioiThieuBanThan\obj\Debug\GioiThieuBanThan.pdb
