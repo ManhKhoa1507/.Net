@@ -29,7 +29,7 @@ namespace GioiThieuBanThan
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Linux, C++, Python, CCNA, etc, ...");
+            MessageBox.Show("Unix, C++, Python, CCNA, etc, ...");
         }
         private void button2_Click(object sender, EventArgs e)
         {

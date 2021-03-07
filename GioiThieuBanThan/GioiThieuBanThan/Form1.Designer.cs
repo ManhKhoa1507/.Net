@@ -83,7 +83,7 @@ namespace GioiThieuBanThan
             this.ovalPictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ovalPictureBox1.ErrorImage = null;
             this.ovalPictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("ovalPictureBox1.Image")));
-            this.ovalPictureBox1.Location = new System.Drawing.Point(58, 126);
+            this.ovalPictureBox1.Location = new System.Drawing.Point(68, 105);
             this.ovalPictureBox1.Name = "ovalPictureBox1";
             this.ovalPictureBox1.Size = new System.Drawing.Size(349, 358);
             this.ovalPictureBox1.TabIndex = 2;
