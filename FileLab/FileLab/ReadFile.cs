@@ -29,6 +29,11 @@ namespace FileLab
             // Hiển thị Hộp thoại OpenFileDialog cho phép chọn 1 file
             // Thuộc tính FileName của OpenFileDialog trả về đường dẫn của file
             ofd.ShowDialog();
+            fs = new FileStream(ofd.FileName, FileMode.OpenOrCreate);
+            bytes = new byte[fs.Length];
+            fs.Read(bytes, 0, (int)fs.Length);
+            content = Encoding.UTF8.GetString(bytes, 0, bytes.Length);
+            richTextBox1.Text = content;
             //
         }
 
