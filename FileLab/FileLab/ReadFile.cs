@@ -30,8 +30,13 @@ namespace FileLab
             // Thuộc tính FileName của OpenFileDialog trả về đường dẫn của file
             ofd.ShowDialog();
             fs = new FileStream(ofd.FileName, FileMode.OpenOrCreate);
+
+            // 1 bytes la 1 chu cai 
             bytes = new byte[fs.Length];
+
+            // Doc file tu vi tri dau tien den het file
             fs.Read(bytes, 0, (int)fs.Length);
+            
             content = Encoding.UTF8.GetString(bytes, 0, bytes.Length);
             richTextBox1.Text = content;
             //
@@ -40,7 +45,9 @@ namespace FileLab
         // Cách đọc sử dụng StreamReader
         private void btnStreamReader_Click(object sender, EventArgs e)
         {
-            //
+            ofd.ShowDialog();
+            StreamReader fileName = new StreamReader(ofd.FileName);
+            richTextBox1.Text = fileName.ReadToEnd();
         }
 
         private void btnClear_Click(object sender, EventArgs e)
