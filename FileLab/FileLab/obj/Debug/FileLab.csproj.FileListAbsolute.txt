@@ -1,0 +1,46 @@
+E:\UIT\TEACHING\NT106.J11\Lab Lap trinh mang can ban\Lab2\FileLab\FileLab\bin\Debug\FileLab.exe.config
+E:\UIT\TEACHING\NT106.J11\Lab Lap trinh mang can ban\Lab2\FileLab\FileLab\bin\Debug\FileLab.exe
+E:\UIT\TEACHING\NT106.J11\Lab Lap trinh mang can ban\Lab2\FileLab\FileLab\bin\Debug\FileLab.pdb
+E:\UIT\TEACHING\NT106.J11\Lab Lap trinh mang can ban\Lab2\FileLab\FileLab\obj\Debug\FileLab.csprojResolveAssemblyReference.cache
+E:\UIT\TEACHING\NT106.J11\Lab Lap trinh mang can ban\Lab2\FileLab\FileLab\obj\Debug\FileLab.Form1.resources
+E:\UIT\TEACHING\NT106.J11\Lab Lap trinh mang can ban\Lab2\FileLab\FileLab\obj\Debug\FileLab.Properties.Resources.resources
+E:\UIT\TEACHING\NT106.J11\Lab Lap trinh mang can ban\Lab2\FileLab\FileLab\obj\Debug\FileLab.csproj.GenerateResource.Cache
+E:\UIT\TEACHING\NT106.J11\Lab Lap trinh mang can ban\Lab2\FileLab\FileLab\obj\Debug\FileLab.exe
+E:\UIT\TEACHING\NT106.J11\Lab Lap trinh mang can ban\Lab2\FileLab\FileLab\obj\Debug\FileLab.pdb
+E:\UIT\TEACHING\NT106.J11\Lab Lap trinh mang can ban\Lab2\FileLab\FileLab\obj\Debug\FileLab.NotePad.resources
+E:\UIT\TEACHING\NT106.J11\Lab Lap trinh mang can ban\Lab2\FileLab\FileLab\obj\Debug\FileLab.Help.resources
+E:\UIT\TEACHING\NT106.J11\Lab Lap trinh mang can ban\Lab2\FileLab\FileLab\obj\Debug\FileLab.FileExplorer.resources
+E:\UIT\TEACHING\NT106.J11\Lab Lap trinh mang can ban\Lab2\FileLab\FileLab\obj\Debug\FileLab.Form2.resources
+E:\UIT\TEACHING\[NT106]-LapTrinhMangCB\2020-HK2\Demo\SLIDES\Chuong2\FileLab\FileLab\bin\Debug\FileLab.exe.config
+E:\UIT\TEACHING\[NT106]-LapTrinhMangCB\2020-HK2\Demo\SLIDES\Chuong2\FileLab\FileLab\bin\Debug\FileLab.exe
+E:\UIT\TEACHING\[NT106]-LapTrinhMangCB\2020-HK2\Demo\SLIDES\Chuong2\FileLab\FileLab\bin\Debug\FileLab.pdb
+E:\UIT\TEACHING\[NT106]-LapTrinhMangCB\2020-HK2\Demo\SLIDES\Chuong2\FileLab\FileLab\obj\Debug\FileLab.FileExplorer.resources
+E:\UIT\TEACHING\[NT106]-LapTrinhMangCB\2020-HK2\Demo\SLIDES\Chuong2\FileLab\FileLab\obj\Debug\FileLab.Form2.resources
+E:\UIT\TEACHING\[NT106]-LapTrinhMangCB\2020-HK2\Demo\SLIDES\Chuong2\FileLab\FileLab\obj\Debug\FileLab.Form1.resources
+E:\UIT\TEACHING\[NT106]-LapTrinhMangCB\2020-HK2\Demo\SLIDES\Chuong2\FileLab\FileLab\obj\Debug\FileLab.Help.resources
+E:\UIT\TEACHING\[NT106]-LapTrinhMangCB\2020-HK2\Demo\SLIDES\Chuong2\FileLab\FileLab\obj\Debug\FileLab.NotePad.resources
+E:\UIT\TEACHING\[NT106]-LapTrinhMangCB\2020-HK2\Demo\SLIDES\Chuong2\FileLab\FileLab\obj\Debug\FileLab.Properties.Resources.resources
+E:\UIT\TEACHING\[NT106]-LapTrinhMangCB\2020-HK2\Demo\SLIDES\Chuong2\FileLab\FileLab\obj\Debug\FileLab.ReadFile.resources
+E:\UIT\TEACHING\[NT106]-LapTrinhMangCB\2020-HK2\Demo\SLIDES\Chuong2\FileLab\FileLab\obj\Debug\FileLab.csproj.GenerateResource.Cache
+E:\UIT\TEACHING\[NT106]-LapTrinhMangCB\2020-HK2\Demo\SLIDES\Chuong2\FileLab\FileLab\obj\Debug\FileLab.exe
+E:\UIT\TEACHING\[NT106]-LapTrinhMangCB\2020-HK2\Demo\SLIDES\Chuong2\FileLab\FileLab\obj\Debug\FileLab.pdb
+E:\UIT\TEACHING\[NT106]-LapTrinhMangCB\2020-HK2\Demo\SLIDES\Chuong2\FileLab\FileLab\obj\Debug\FileLab.csprojResolveAssemblyReference.cache
+E:\UIT\TEACHING\[NT106]-LapTrinhMangCB\2020-HK2\Demo\SLIDES\Chuong2\FileLab\FileLab\obj\Debug\FileLab.Form3.resources
+E:\UIT\TEACHING\[NT106]-LapTrinhMangCB\2020-HK2\Demo\SLIDES\Chuong2\New folder\FileLab\FileLab\bin\Debug\FileLab.exe.config
+E:\UIT\TEACHING\[NT106]-LapTrinhMangCB\2020-HK2\Demo\SLIDES\Chuong2\New folder\FileLab\FileLab\obj\Debug\FileLab.exe
+E:\UIT\TEACHING\[NT106]-LapTrinhMangCB\2020-HK2\Demo\SLIDES\Chuong2\New folder\FileLab\FileLab\obj\Debug\FileLab.pdb
+E:\UIT\TEACHING\[NT106]-LapTrinhMangCB\2020-HK2\Demo\SLIDES\Chuong2\New folder\FileLab\FileLab\bin\Debug\FileLab.exe
+E:\UIT\TEACHING\[NT106]-LapTrinhMangCB\2020-HK2\Demo\SLIDES\Chuong2\New folder\FileLab\FileLab\bin\Debug\FileLab.pdb
+E:\UIT\TEACHING\[NT106]-LapTrinhMangCB\2020-HK2\Demo\SLIDES\Chuong2\New folder\FileLab\FileLab\obj\Debug\FileLab.csprojResolveAssemblyReference.cache
+E:\UIT\TEACHING\[NT106]-LapTrinhMangCB\2020-HK2\Demo\SLIDES\Chuong2\New folder\FileLab\FileLab\obj\Debug\FileLab.Properties.Resources.resources
+E:\UIT\TEACHING\[NT106]-LapTrinhMangCB\2020-HK2\Demo\SLIDES\Chuong2\New folder\FileLab\FileLab\obj\Debug\FileLab.ReadFile.resources
+E:\UIT\TEACHING\[NT106]-LapTrinhMangCB\2020-HK2\Demo\SLIDES\Chuong2\New folder\FileLab\FileLab\obj\Debug\FileLab.csproj.GenerateResource.Cache
+C:\CODE\CODE\C# CODE\FileLab\FileLab\bin\Debug\FileLab.exe.config
+C:\CODE\CODE\C# CODE\FileLab\FileLab\bin\Debug\FileLab.exe
+C:\CODE\CODE\C# CODE\FileLab\FileLab\bin\Debug\FileLab.pdb
+C:\CODE\CODE\C# CODE\FileLab\FileLab\obj\Debug\FileLab.csprojAssemblyReference.cache
+C:\CODE\CODE\C# CODE\FileLab\FileLab\obj\Debug\FileLab.Properties.Resources.resources
+C:\CODE\CODE\C# CODE\FileLab\FileLab\obj\Debug\FileLab.ReadFile.resources
+C:\CODE\CODE\C# CODE\FileLab\FileLab\obj\Debug\FileLab.csproj.GenerateResource.cache
+C:\CODE\CODE\C# CODE\FileLab\FileLab\obj\Debug\FileLab.exe
+C:\CODE\CODE\C# CODE\FileLab\FileLab\obj\Debug\FileLab.pdb
