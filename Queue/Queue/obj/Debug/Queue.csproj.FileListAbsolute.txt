@@ -1,0 +1,6 @@
+C:\CODE\CODE\C# CODE\Queue\Queue\bin\Debug\Queue.exe.config
+C:\CODE\CODE\C# CODE\Queue\Queue\bin\Debug\Queue.exe
+C:\CODE\CODE\C# CODE\Queue\Queue\bin\Debug\Queue.pdb
+C:\CODE\CODE\C# CODE\Queue\Queue\obj\Debug\Queue.csprojAssemblyReference.cache
+C:\CODE\CODE\C# CODE\Queue\Queue\obj\Debug\Queue.exe
+C:\CODE\CODE\C# CODE\Queue\Queue\obj\Debug\Queue.pdb
