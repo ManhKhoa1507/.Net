@@ -14,6 +14,8 @@ namespace FileLab
 {
     public partial class ReadFile : Form
     {
+        // OpenFileDialog : allow user to browe and select file on a computer in an application 
+
         OpenFileDialog ofd = new OpenFileDialog();
         FileStream fs;
         string content;
@@ -46,9 +48,10 @@ namespace FileLab
         private void btnStreamReader_Click(object sender, EventArgs e)
         {
             ofd.ShowDialog();
-            StreamReader fileName = new StreamReader(ofd.FileName);
-            richTextBox1.Text = fileName.ReadToEnd();
+            StreamReader StreamFile = new StreamReader(ofd.FileName);
+            richTextBox1.Text = StreamFile.ReadToEnd();
         }
+
 
         private void btnClear_Click(object sender, EventArgs e)
         {
