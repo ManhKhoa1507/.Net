@@ -44,3 +44,4 @@ C:\CODE\CODE\C# CODE\FileLab\FileLab\obj\Debug\FileLab.ReadFile.resources
 C:\CODE\CODE\C# CODE\FileLab\FileLab\obj\Debug\FileLab.csproj.GenerateResource.cache
 C:\CODE\CODE\C# CODE\FileLab\FileLab\obj\Debug\FileLab.exe
 C:\CODE\CODE\C# CODE\FileLab\FileLab\obj\Debug\FileLab.pdb
+C:\CODE\CODE\C# CODE\FileLab\FileLab\obj\Debug\FileLab.DatabaseForm.resources

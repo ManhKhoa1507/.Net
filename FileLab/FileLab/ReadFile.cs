@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Threading;
+using System.Data.SqlClient;
+using System.Data;
+using Microsoft.SqlServer.Server;
 
 namespace FileLab
 {
@@ -55,11 +58,11 @@ namespace FileLab
         private void btnStreamReader_Click(object sender, EventArgs e)
         {
             ofd.ShowDialog();
-            
+
             using (StreamReader sr = new StreamReader(ofd.FileName))
             {
                 int srLength = (int)sr.BaseStream.Length;
-                
+
                 // Create a byte of char in streamfile array 
                 // Read to end of file
                 Char[] bytes = new char[srLength];
@@ -68,6 +71,10 @@ namespace FileLab
 
             string content = Encoding.UTF8.GetString(bytes, 0, bytes.Length);
             Display_richTextBox(content);
+
+            //StreamReader sr = new StreamReader(ofd.FileName);
+            //Display_richTextBox(sr.ReadToEnd());
+            //sr.Close();
         }
 
         // Read the file using FileStream Async
@@ -111,9 +118,31 @@ namespace FileLab
             richTextBox1.Text = "";
         }
 
+
+        // Hide and Open new form
         private void button1_Click_1(object sender, EventArgs e)
         {
-            //
+            string ServerName = "MANHKHOA";
+            string Database = "QLS";
+            string Username = "MANHKHOA\\ADMIN";
+            string Password = "";
+
+            string connectionString;
+            SqlConnection cnn;
+
+            connectionString = "Data Source = MANHKHOA; Integrated Security = True; Connect Timeout = 30; Encrypt = False; TrustServerCertificate = False; ApplicationIntent = ReadWrite; MultiSubnetFailover = False";
+            cnn = new SqlConnection(connectionString);
+
+            cnn.Open();
+            MessageBox.Show("Connection Open");
+            cnn.Close();
+
+            // Hide the current form 
+            this.Hide();
+            
+            // Open new Databaseform 
+            DatabaseForm Dbform = new DatabaseForm();
+            Dbform.ShowDialog();
         }
 
         private void ReadFile_Load(object sender, EventArgs e)

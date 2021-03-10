@@ -40,19 +40,19 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(25, 14);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox1.Location = new System.Drawing.Point(19, 11);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(675, 403);
+            this.richTextBox1.Size = new System.Drawing.Size(507, 328);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
             // 
             // btnFileStream
             // 
-            this.btnFileStream.Location = new System.Drawing.Point(722, 18);
-            this.btnFileStream.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnFileStream.Location = new System.Drawing.Point(542, 15);
+            this.btnFileStream.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnFileStream.Name = "btnFileStream";
-            this.btnFileStream.Size = new System.Drawing.Size(142, 47);
+            this.btnFileStream.Size = new System.Drawing.Size(106, 38);
             this.btnFileStream.TabIndex = 1;
             this.btnFileStream.Text = "FileStream";
             this.btnFileStream.UseVisualStyleBackColor = true;
@@ -60,10 +60,10 @@
             // 
             // btnStreamReader
             // 
-            this.btnStreamReader.Location = new System.Drawing.Point(723, 86);
-            this.btnStreamReader.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnStreamReader.Location = new System.Drawing.Point(542, 70);
+            this.btnStreamReader.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnStreamReader.Name = "btnStreamReader";
-            this.btnStreamReader.Size = new System.Drawing.Size(140, 49);
+            this.btnStreamReader.Size = new System.Drawing.Size(105, 40);
             this.btnStreamReader.TabIndex = 2;
             this.btnStreamReader.Text = "Stream Reader";
             this.btnStreamReader.UseVisualStyleBackColor = true;
@@ -75,10 +75,10 @@
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(725, 298);
-            this.btnClear.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnClear.Location = new System.Drawing.Point(544, 242);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(137, 44);
+            this.btnClear.Size = new System.Drawing.Size(103, 36);
             this.btnClear.TabIndex = 3;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
@@ -86,10 +86,10 @@
             // 
             // btnFileReadAsync
             // 
-            this.btnFileReadAsync.Location = new System.Drawing.Point(725, 159);
-            this.btnFileReadAsync.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnFileReadAsync.Location = new System.Drawing.Point(544, 129);
+            this.btnFileReadAsync.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnFileReadAsync.Name = "btnFileReadAsync";
-            this.btnFileReadAsync.Size = new System.Drawing.Size(137, 46);
+            this.btnFileReadAsync.Size = new System.Drawing.Size(103, 37);
             this.btnFileReadAsync.TabIndex = 4;
             this.btnFileReadAsync.Text = "FileReadAsync";
             this.btnFileReadAsync.UseVisualStyleBackColor = true;
@@ -97,10 +97,10 @@
             // 
             // btnStreamReadSync
             // 
-            this.btnStreamReadSync.Location = new System.Drawing.Point(725, 230);
-            this.btnStreamReadSync.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnStreamReadSync.Location = new System.Drawing.Point(544, 187);
+            this.btnStreamReadSync.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnStreamReadSync.Name = "btnStreamReadSync";
-            this.btnStreamReadSync.Size = new System.Drawing.Size(137, 44);
+            this.btnStreamReadSync.Size = new System.Drawing.Size(103, 36);
             this.btnStreamReadSync.TabIndex = 5;
             this.btnStreamReadSync.Text = "StreamReadAsync";
             this.btnStreamReadSync.UseVisualStyleBackColor = true;
@@ -108,20 +108,20 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(727, 358);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Location = new System.Drawing.Point(545, 291);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 58);
+            this.button1.Size = new System.Drawing.Size(102, 47);
             this.button1.TabIndex = 6;
-            this.button1.Text = "button1";
+            this.button1.Text = "Connect to DB";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // ReadFile
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(899, 443);
+            this.ClientSize = new System.Drawing.Size(674, 360);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnStreamReadSync);
             this.Controls.Add(this.btnFileReadAsync);
@@ -129,7 +129,7 @@
             this.Controls.Add(this.btnStreamReader);
             this.Controls.Add(this.btnFileStream);
             this.Controls.Add(this.richTextBox1);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ReadFile";
             this.Text = "ReadFile";
             this.Load += new System.EventHandler(this.ReadFile_Load);
