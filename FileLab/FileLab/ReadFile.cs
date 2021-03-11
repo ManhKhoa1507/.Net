@@ -115,24 +115,6 @@ namespace FileLab
         // Hide and Open new form
         private void button1_Click_1(object sender, EventArgs e)
         {
-            string ServerName = "MANHKHOA";
-            string Database = "QLS";
-            string Username = "MANHKHOA\\ADMIN";
-            string Password = "";
-
-            string connectionString;
-            SqlConnection cnn;
-
-            connectionString = "Data Source = MANHKHOA; Integrated Security = True; Connect Timeout = 30; Encrypt = False; TrustServerCertificate = False; ApplicationIntent = ReadWrite; MultiSubnetFailover = False";
-            cnn = new SqlConnection(connectionString);
-
-            cnn.Open();
-            MessageBox.Show("Connection Open");
-            cnn.Close();
-
-            // Hide the current form 
-            this.Hide();
-            
             // Open new Databaseform 
             DatabaseForm Dbform = new DatabaseForm();
             Dbform.ShowDialog();
