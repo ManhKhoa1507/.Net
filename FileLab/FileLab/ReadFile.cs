@@ -23,6 +23,7 @@ namespace FileLab
         FileStream fs;
         string content;
         byte[] bytes;
+        Char[] buffer;
 
         public ReadFile()
         {
@@ -58,23 +59,12 @@ namespace FileLab
         private void btnStreamReader_Click(object sender, EventArgs e)
         {
             ofd.ShowDialog();
+            StreamReader sr = new StreamReader(ofd.FileName);
 
-            using (StreamReader sr = new StreamReader(ofd.FileName))
-            {
-                int srLength = (int)sr.BaseStream.Length;
+            // Read to the end of file 
+            Display_richTextBox(sr.ReadToEnd());
 
-                // Create a byte of char in streamfile array 
-                // Read to end of file
-                Char[] bytes = new char[srLength];
-                sr.Read(bytes, 0, srLength);
-            }
-
-            string content = Encoding.UTF8.GetString(bytes, 0, bytes.Length);
-            Display_richTextBox(content);
-
-            //StreamReader sr = new StreamReader(ofd.FileName);
-            //Display_richTextBox(sr.ReadToEnd());
-            //sr.Close();
+            sr.Close();
         }
 
         // Read the file using FileStream Async
@@ -104,17 +94,20 @@ namespace FileLab
             {
                 int srLength = (int)sr.BaseStream.Length;
 
-                Char[] bytes = new Char[srLength];
-                await sr.ReadAsync(bytes, 0, srLength);
+                buffer = new Char[srLength];
+                // Read to the end of file
+                await sr.ReadAsync(buffer, 0, srLength);
             }
 
-            string content = Encoding.UTF8.GetString(bytes, 0, bytes.Length);
-            Display_richTextBox(content);
+            // Create a bufferString array and display to richTextBox
+            string bufferString = new string(buffer);
+            Display_richTextBox(bufferString);
         }
 
+        // Clear the richTextBox
         private void btnClear_Click(object sender, EventArgs e)
         {
-            // Clear the richTextBox
+            // Make the richTextBox = ""
             richTextBox1.Text = "";
         }
 
@@ -150,6 +143,7 @@ namespace FileLab
             //
         }
 
+        // Display the content to the richTextBox
         public void Display_richTextBox(string content)
         {
             richTextBox1.Text = content;
