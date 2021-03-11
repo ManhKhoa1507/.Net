@@ -17,8 +17,8 @@ namespace FileLab
 {
     public partial class ReadFile : Form
     {
-        // OpenFileDialog : allow user to browe and select file on a computer in an application 
 
+        // OpenFileDialog : allow user to browe and select file on a computer in an application 
         OpenFileDialog ofd = new OpenFileDialog();
         FileStream fs;
         string content;
@@ -93,8 +93,8 @@ namespace FileLab
             using (StreamReader sr = new StreamReader(ofd.FileName))
             {
                 int srLength = (int)sr.BaseStream.Length;
-
                 buffer = new Char[srLength];
+
                 // Read to the end of file
                 await sr.ReadAsync(buffer, 0, srLength);
             }
@@ -112,7 +112,7 @@ namespace FileLab
         }
 
 
-        // Hide and Open new form
+        // Open new form
         private void button1_Click_1(object sender, EventArgs e)
         {
             // Open new Databaseform 
@@ -122,7 +122,7 @@ namespace FileLab
 
         private void ReadFile_Load(object sender, EventArgs e)
         {
-            //
+
         }
 
         // Display the content to the richTextBox
