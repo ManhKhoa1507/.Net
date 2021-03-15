@@ -21,6 +21,7 @@ namespace FileLab
         // OpenFileDialog : allow user to browe and select file on a computer in an application 
         OpenFileDialog ofd = new OpenFileDialog();
         FileStream fs;
+
         string content;
         byte[] bytes;
         Char[] buffer;
@@ -29,6 +30,7 @@ namespace FileLab
         {
             InitializeComponent();
         }
+
         // Cách đọc sử dụng FileStream Sync
         private void btnFileStream_Click(object sender, EventArgs e)
         {
@@ -67,7 +69,7 @@ namespace FileLab
             sr.Close();
         }
 
-        // Read the file using FileStream Async
+         // Read the file using FileStream Async
         private async void btnFileReadAsync_Click(object sender, EventArgs e)
         {
             ofd.ShowDialog();
@@ -132,5 +134,3 @@ namespace FileLab
         }
     }
 }
-
-
