@@ -36,5 +36,11 @@ namespace Lab1
             DocSo Bai_3 = new DocSo();
             Bai_3.ShowDialog();
         }
+
+        private void Bai4_Click(object sender, EventArgs e)
+        {
+            ChuyenDoiSo Bai_4 = new ChuyenDoiSo();
+            Bai_4.ShowDialog();
+        }
     }
 }

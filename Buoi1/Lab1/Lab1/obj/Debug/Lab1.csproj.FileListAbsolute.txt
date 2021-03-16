@@ -10,3 +10,4 @@ C:\CODE\CODE\C# CODE\Buoi1\Lab1\Lab1\obj\Debug\Lab1.pdb
 C:\CODE\CODE\C# CODE\Buoi1\Lab1\Lab1\obj\Debug\Lab1.TinhTong.resources
 C:\CODE\CODE\C# CODE\Buoi1\Lab1\Lab1\obj\Debug\Lab1.MinMax.resources
 C:\CODE\CODE\C# CODE\Buoi1\Lab1\Lab1\obj\Debug\Lab1.DocSo.resources
+C:\CODE\CODE\C# CODE\Buoi1\Lab1\Lab1\obj\Debug\Lab1.ChuyenDoiSo.resources
