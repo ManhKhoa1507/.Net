@@ -18,39 +18,13 @@ namespace Lab1
         }
 
         // Find Max between 3 number
-        public double FindMax(double a, double b, double c)
+        public static (double min, double max) FindMinMax(List<double> doubleList)
         {
-            double max = a;
+            double max = doubleList.Max();
+            double min = doubleList.Min();
 
-            if(max < b) 
-            {
-                max = b;
-            }
+            return (min, max);
 
-            if(max < c)
-            {
-                max = c;
-            }
-
-            return max;
-        }
-
-        // Find Min between 3 number
-        public double FindMin(double a, double b, double c)
-        {
-            double min = a;
-
-            if (min > b)
-            {
-                min = b;
-            }
-
-            if (min > c)
-            {
-                min = c;
-            }
-
-            return min;
         }
 
         // Convert string value to double 
@@ -69,9 +43,10 @@ namespace Lab1
                 double secondNumber = convertNumber(textBox2.Text);
                 double thirdNumber = convertNumber(textBox3.Text);
 
+                List<double> doubleList = new List<double> { firstNumber, secondNumber, thirdNumber };
+
                 // Find max and min value
-                double max = FindMax(firstNumber, secondNumber, thirdNumber);
-                double min = FindMin(firstNumber, secondNumber, thirdNumber);
+                (double min, double max) = FindMinMax(doubleList);
 
                 // Display to richtextbox
                 richTextBox1.Text = max.ToString();
@@ -90,6 +65,9 @@ namespace Lab1
             textBox1.Text = "";
             textBox2.Text = "";
             textBox3.Text = "";
+
+            richTextBox1.Text = "";
+            richTextBox2.Text = "";
         }
 
         // Exit the MinMax form

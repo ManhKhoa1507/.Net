@@ -31,16 +31,25 @@ namespace Lab1
             Bai_2.ShowDialog();
         }
 
+        // Run Bai 3
         private void Bai3_Click(object sender, EventArgs e)
         {
             DocSo Bai_3 = new DocSo();
             Bai_3.ShowDialog();
         }
 
+        // Run Bai 4
         private void Bai4_Click(object sender, EventArgs e)
         {
             ChuyenDoiSo Bai_4 = new ChuyenDoiSo();
             Bai_4.ShowDialog();
+        }
+
+        // Run Bai 5
+        private void Bai5_Click(object sender, EventArgs e)
+        {
+            QuanLiDiem Bai_5 = new QuanLiDiem();
+            Bai_5.ShowDialog();
         }
     }
 }

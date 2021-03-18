@@ -37,12 +37,15 @@ namespace Lab1
                 case "Dec":
                     result = 10;
                     break;
+
                 case "Bin":
                     result = 2;
                     break;
+
                 case "Oct":
                     result = 8;
                     break;
+
                 case "Hex":
                     result = 16;
                     break;
@@ -78,6 +81,7 @@ namespace Lab1
                 string content = ConvertNumber(number, fromBase, toBase);
                 richTextBox1.Text = content;
             }
+
             catch(Exception)
             {
                 MessageBox.Show("Nhap gia tri hop le");

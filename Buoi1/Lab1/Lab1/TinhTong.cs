@@ -50,7 +50,7 @@ namespace Lab1
             catch (Exception) 
             {
                 // Show error message box
-                MessageBox.Show("Nhap so nguyen");
+                MessageBox.Show("Vui lòng nhập số nguyên", "Error");
             }
         }
     }
