@@ -1,0 +1,11 @@
+C:\CODE\CODE\C# CODE\Buoi2\Buoi2\bin\Debug\Buoi2.exe.config
+C:\CODE\CODE\C# CODE\Buoi2\Buoi2\bin\Debug\Buoi2.exe
+C:\CODE\CODE\C# CODE\Buoi2\Buoi2\bin\Debug\Buoi2.pdb
+C:\CODE\CODE\C# CODE\Buoi2\Buoi2\obj\Debug\Buoi2.csprojAssemblyReference.cache
+C:\CODE\CODE\C# CODE\Buoi2\Buoi2\obj\Debug\Buoi2.Form1.resources
+C:\CODE\CODE\C# CODE\Buoi2\Buoi2\obj\Debug\Buoi2.GhiVaDocFile.resources
+C:\CODE\CODE\C# CODE\Buoi2\Buoi2\obj\Debug\Buoi2.Properties.Resources.resources
+C:\CODE\CODE\C# CODE\Buoi2\Buoi2\obj\Debug\Buoi2.csproj.GenerateResource.cache
+C:\CODE\CODE\C# CODE\Buoi2\Buoi2\obj\Debug\Buoi2.exe
+C:\CODE\CODE\C# CODE\Buoi2\Buoi2\obj\Debug\Buoi2.pdb
+C:\CODE\CODE\C# CODE\Buoi2\Buoi2\obj\Debug\Buoi2.ThongTinFile.resources
