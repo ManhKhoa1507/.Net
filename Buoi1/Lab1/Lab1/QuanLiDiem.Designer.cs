@@ -122,7 +122,7 @@
             // FailedCount
             // 
             this.FailedCount.BackColor = System.Drawing.SystemColors.Control;
-            this.FailedCount.Location = new System.Drawing.Point(38, 403);
+            this.FailedCount.Location = new System.Drawing.Point(549, 408);
             this.FailedCount.Multiline = true;
             this.FailedCount.Name = "FailedCount";
             this.FailedCount.Size = new System.Drawing.Size(145, 20);
@@ -148,10 +148,11 @@
             // PassCount
             // 
             this.PassCount.BackColor = System.Drawing.SystemColors.Control;
-            this.PassCount.Location = new System.Drawing.Point(549, 403);
+            this.PassCount.Location = new System.Drawing.Point(46, 408);
             this.PassCount.Name = "PassCount";
             this.PassCount.Size = new System.Drawing.Size(137, 20);
             this.PassCount.TabIndex = 12;
+            this.PassCount.TextChanged += new System.EventHandler(this.PassCount_TextChanged);
             // 
             // QuanLiDiem
             // 

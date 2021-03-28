@@ -239,5 +239,10 @@ namespace Lab1
         {
 
         }
+
+        private void PassCount_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

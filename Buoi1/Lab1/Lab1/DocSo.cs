@@ -103,6 +103,7 @@ namespace Lab1
         private void Delete_Click(object sender, EventArgs e)
         {
             textBox1.Text = "";
+            richTextBox1.Text = "";
         }
 
         // Exit the current form
