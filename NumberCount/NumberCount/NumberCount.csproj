@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1B175DA1-E2C2-493D-BE9D-AF07EED00C80}</ProjectGuid>
+    <ProjectGuid>{5E94A60D-79E1-42AE-8158-CE7CBB38EFD0}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Buoi2</RootNamespace>
-    <AssemblyName>Buoi2</AssemblyName>
+    <RootNamespace>NumberCount</RootNamespace>
+    <AssemblyName>NumberCount</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -52,31 +52,10 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="GhiVaDocFile.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GhiVaDocFile.Designer.cs">
-      <DependentUpon>GhiVaDocFile.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ThongTinFile.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ThongTinFile.Designer.cs">
-      <DependentUpon>ThongTinFile.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Tinh.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Tinh.Designer.cs">
-      <DependentUpon>Tinh.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GhiVaDocFile.resx">
-      <DependentUpon>GhiVaDocFile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -87,12 +66,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ThongTinFile.resx">
-      <DependentUpon>ThongTinFile.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Tinh.resx">
-      <DependentUpon>Tinh.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

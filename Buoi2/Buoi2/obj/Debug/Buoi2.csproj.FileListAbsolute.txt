@@ -9,3 +9,4 @@ C:\CODE\CODE\C# CODE\Buoi2\Buoi2\obj\Debug\Buoi2.csproj.GenerateResource.cache
 C:\CODE\CODE\C# CODE\Buoi2\Buoi2\obj\Debug\Buoi2.exe
 C:\CODE\CODE\C# CODE\Buoi2\Buoi2\obj\Debug\Buoi2.pdb
 C:\CODE\CODE\C# CODE\Buoi2\Buoi2\obj\Debug\Buoi2.ThongTinFile.resources
+C:\CODE\CODE\C# CODE\Buoi2\Buoi2\obj\Debug\Buoi2.Tinh.resources

@@ -64,31 +64,38 @@ namespace Buoi2
 
         private async void Read_Click(object sender, EventArgs e)
         {
-            // Click to read the file
-            ofd.ShowDialog();
-       
-            string fileName = ofd.FileName;
-            string directoryPath = Path.GetDirectoryName(fileName);
-            int lines = 0, words = 0, characters = 0;
-
-            // Read the file 
-            using (StreamReader sr = new StreamReader(fileName))
+            try 
             {
-                int srLength = (int)sr.BaseStream.Length;
-                buffer = new Char[srLength];
+                // Click to read the file
+                ofd.ShowDialog();
 
-                await sr.ReadAsync(buffer, 0, srLength);
+                string fileName = ofd.FileName;
+                string directoryPath = Path.GetDirectoryName(fileName);
+                int lines = 0, words = 0, characters = 0;
+
+                // Read the file 
+                using (StreamReader sr = new StreamReader(fileName))
+                {
+                    int srLength = (int)sr.BaseStream.Length;
+                    buffer = new Char[srLength];
+
+                    await sr.ReadAsync(buffer, 0, srLength);
+                }
+
+                // Convert buffer to string 
+                string message = new string(buffer);
+
+                // Count element 
+                (lines, words, characters) = CountElement(message);
+
+                // Display result;
+                richTextBox1.Text = message;
+                DisplayToRichTextBox(fileName, directoryPath, lines, words, characters);
             }
-
-            // Convert buffer to string 
-            string message = new string(buffer);
-
-            // Count element 
-            (lines, words, characters) = CountElement(message);
-
-            // Display result;
-            richTextBox1.Text = message;
-            DisplayToRichTextBox(fileName, directoryPath, lines, words, characters);
+            catch(Exception)
+            {
+                MessageBox.Show("Vui lòng chọn lại file", "Error");
+            }
         }
     }
 }

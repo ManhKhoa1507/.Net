@@ -28,5 +28,11 @@ namespace Buoi2
             ThongTinFile Bai2 = new ThongTinFile();
             Bai2.ShowDialog();
         }
+
+        private void Bai3_Click(object sender, EventArgs e)
+        {
+            Tinh Bai3 = new Tinh();
+            Bai3.ShowDialog();
+        }
     }
 }
