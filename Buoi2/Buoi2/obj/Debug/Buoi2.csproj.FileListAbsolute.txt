@@ -12,3 +12,4 @@ C:\CODE\CODE\C# CODE\Buoi2\Buoi2\obj\Debug\Buoi2.ThongTinFile.resources
 C:\CODE\CODE\C# CODE\Buoi2\Buoi2\obj\Debug\Buoi2.Tinh.resources
 C:\CODE\CODE\C# CODE\Buoi2\Buoi2\obj\Debug\Buoi2.ThongTinSinhVien.resources
 C:\CODE\CODE\C# CODE\Buoi2\Buoi2\obj\Debug\Buoi2.NhapSinhVien.resources
+C:\CODE\CODE\C# CODE\Buoi2\Buoi2\obj\Debug\Buoi2.DuyetThuMuc.resources

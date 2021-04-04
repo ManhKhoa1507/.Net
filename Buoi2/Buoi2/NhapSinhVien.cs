@@ -68,10 +68,14 @@ namespace Buoi2
                 CheckFormat(name, studentCode, phone, mathPoint, lecturePoint);
 
                 string message = "";
+                
+                // If it is the first line so there is no \n before thje cursor
                 if(firstLine == true)
                 {
                     message += "\n";
                 }
+
+                // esle
                 message += studentCode + ";" + name + ";" + phone + ";"
                     + mathPoint + ";" + lecturePoint;
 

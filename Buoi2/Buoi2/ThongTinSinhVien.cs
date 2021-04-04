@@ -18,7 +18,7 @@ namespace Buoi2
         Char[] buffer;
         public static OpenFileDialog ofd = new OpenFileDialog();
         private System.Data.DataTable dataTable = new System.Data.DataTable();
-
+        const string errorMessage = "Vui lòng nhập lại";
         public ThongTinSinhVien()
         {
             InitializeComponent();
@@ -58,7 +58,6 @@ namespace Buoi2
         private static string CreateConnectionString()
         {
             // Create connection string 
-
             // Connect to DB
             string dataSource = "Data Source = MANHKHOA; ";
             string initicalCatalog = "Initial Catalog = QLSV; ";
@@ -89,14 +88,13 @@ namespace Buoi2
             dataGridView1.DataSource = dataTable;
         }
 
-        // Make connection string 
-        // Connect to DB
+        // Make connection string and Connect to DB
         static string connectionString = CreateConnectionString();
         SqlConnection connection = new SqlConnection(connectionString);
 
         private void ExecuteExportQuery(string query)
         {
-            // Execute the query to the DB 
+            // Execute the query to export the DB to datagrid  
             connection.Open();
 
             // Run the SQL command 
@@ -111,18 +109,20 @@ namespace Buoi2
 
         private void ExecuteQuery(string query)
         {
+            // Excecuting the query 
             SqlCommand command = new SqlCommand(query, connection);
-
             connection.Open();
+
             command.ExecuteNonQuery();
+            
             connection.Close();
         }
 
         private async void Save_Click(object sender, EventArgs e)
         {
-            //try
-            //{
-                 //Read the file 
+            try
+            {
+                // Read the file
                 using (StreamReader sr = new StreamReader(ofd.FileName))
                 {
                     int srLength = (int)sr.BaseStream.Length;
@@ -131,24 +131,23 @@ namespace Buoi2
                     await sr.ReadAsync(buffer, 0, srLength);
                 }
                 string content = new string(buffer);
-                
+
                 // Split each lines in file
                 List<string> linesList = content.Split('\n').ToList();
-
-                MessageBox.Show(linesList.Count.ToString());
-
-                foreach(string line in linesList)
+                
+                // Execute the query
+                foreach (string line in linesList)
                 {
                     string query = MakeInsertValueQuery(line);
                     ExecuteQuery(query);
                 }
 
-        //}
-        //    catch(Exception)
-        //    {
-        //        MessageBox.Show("Vui lòng nhập lại", "Error");
-        //    }
-}
+            }
+            catch (Exception)
+            {
+                MessageBox.Show(errorMessage, "Error");
+            }
+        }
 
         private void GetInfo_Click(object sender, EventArgs e)
         {
@@ -159,12 +158,13 @@ namespace Buoi2
             }
             catch(Exception)
             {
-                MessageBox.Show("Vui lòng nhập lại", "Error");
+                MessageBox.Show(errorMessage, "Error");
             }
         }
 
         private void GetLocation_Click(object sender, EventArgs e)
         {
+            // Get location of saved file
             ofd.ShowDialog();
         }
     }

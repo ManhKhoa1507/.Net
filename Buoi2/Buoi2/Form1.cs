@@ -40,5 +40,11 @@ namespace Buoi2
             ThongTinSinhVien Bai4 = new ThongTinSinhVien();
             Bai4.ShowDialog();
         }
+
+        private void Bai5_Click(object sender, EventArgs e)
+        {
+            DuyetThuMuc Bai5 = new DuyetThuMuc();
+            Bai5.ShowDialog();
+        }
     }
 }
