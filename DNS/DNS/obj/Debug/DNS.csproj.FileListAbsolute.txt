@@ -1,0 +1,9 @@
+C:\CODE\CODE\C# CODE\DNS\DNS\bin\Debug\DNS.exe.config
+C:\CODE\CODE\C# CODE\DNS\DNS\bin\Debug\DNS.exe
+C:\CODE\CODE\C# CODE\DNS\DNS\bin\Debug\DNS.pdb
+C:\CODE\CODE\C# CODE\DNS\DNS\obj\Debug\DNS.csprojAssemblyReference.cache
+C:\CODE\CODE\C# CODE\DNS\DNS\obj\Debug\DNS.Form1.resources
+C:\CODE\CODE\C# CODE\DNS\DNS\obj\Debug\DNS.Properties.Resources.resources
+C:\CODE\CODE\C# CODE\DNS\DNS\obj\Debug\DNS.csproj.GenerateResource.cache
+C:\CODE\CODE\C# CODE\DNS\DNS\obj\Debug\DNS.exe
+C:\CODE\CODE\C# CODE\DNS\DNS\obj\Debug\DNS.pdb
