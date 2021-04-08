@@ -1,6 +1,6 @@
 ﻿namespace ClientSocket
 {
-    partial class TCPClientForm
+    partial class UDPClient
     {
         /// <summary>
         /// Required designer variable.

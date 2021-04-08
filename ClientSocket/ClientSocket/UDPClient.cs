@@ -12,9 +12,9 @@ using System.Net.Sockets;
 
 namespace ClientSocket
 {
-    public partial class TCPClientForm : Form
+    public partial class UDPClient : Form
     {
-        public TCPClientForm()
+        public UDPClient()
         {
             InitializeComponent();
         }

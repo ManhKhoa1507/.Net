@@ -19,14 +19,14 @@ namespace ClientSocket
 
         private void UDPClient_Click(object sender, EventArgs e)
         {
-
+            UDPClient udpClient = new UDPClient();
+            udpClient.ShowDialog();
+            this.Hide();
         }
 
         private void TCPClient_Click(object sender, EventArgs e)
         {
-            TCPClientForm tcpClient = new TCPClientForm();
-            tcpClient.ShowDialog();
-            this.Hide();
+
         }
     }
 }

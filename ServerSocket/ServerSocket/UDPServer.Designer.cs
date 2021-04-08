@@ -1,6 +1,6 @@
 ﻿namespace ServerSocket
 {
-    partial class TCPServer
+    partial class UDPServer
     {
         /// <summary>
         /// Required designer variable.

@@ -13,9 +13,9 @@ using System.Threading;
 
 namespace ServerSocket
 {
-    public partial class TCPServer : Form
+    public partial class UDPServer : Form
     {
-        public TCPServer()
+        public UDPServer()
         {
             InitializeComponent();
         }

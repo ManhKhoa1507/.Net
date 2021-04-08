@@ -19,14 +19,14 @@ namespace ServerSocket
 
         private void UDPServer_Click(object sender, EventArgs e)
         {
-
+            UDPServer udpServer = new UDPServer();
+            udpServer.ShowDialog();
+            this.Hide();
         }
 
         private void TCPServer_Click(object sender, EventArgs e)
         {
-            TCPServer tcpServer = new TCPServer();
-            tcpServer.ShowDialog();
-            this.Hide();
+
         }
     }
 }
