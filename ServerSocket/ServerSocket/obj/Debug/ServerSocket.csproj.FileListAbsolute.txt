@@ -1,0 +1,10 @@
+C:\CODE\CODE\C# CODE\ServerSocket\ServerSocket\bin\Debug\ServerSocket.exe.config
+C:\CODE\CODE\C# CODE\ServerSocket\ServerSocket\bin\Debug\ServerSocket.exe
+C:\CODE\CODE\C# CODE\ServerSocket\ServerSocket\bin\Debug\ServerSocket.pdb
+C:\CODE\CODE\C# CODE\ServerSocket\ServerSocket\obj\Debug\ServerSocket.csprojAssemblyReference.cache
+C:\CODE\CODE\C# CODE\ServerSocket\ServerSocket\obj\Debug\ServerSocket.Form1.resources
+C:\CODE\CODE\C# CODE\ServerSocket\ServerSocket\obj\Debug\ServerSocket.Properties.Resources.resources
+C:\CODE\CODE\C# CODE\ServerSocket\ServerSocket\obj\Debug\ServerSocket.TCPServer.resources
+C:\CODE\CODE\C# CODE\ServerSocket\ServerSocket\obj\Debug\ServerSocket.csproj.GenerateResource.cache
+C:\CODE\CODE\C# CODE\ServerSocket\ServerSocket\obj\Debug\ServerSocket.exe
+C:\CODE\CODE\C# CODE\ServerSocket\ServerSocket\obj\Debug\ServerSocket.pdb
