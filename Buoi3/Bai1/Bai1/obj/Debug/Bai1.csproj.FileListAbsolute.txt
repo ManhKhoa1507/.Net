@@ -1,0 +1,12 @@
+C:\CODE\CODE\C# CODE\Buoi3\Bai1\Bai1\bin\Debug\Bai1.exe.config
+C:\CODE\CODE\C# CODE\Buoi3\Bai1\Bai1\bin\Debug\Bai1.exe
+C:\CODE\CODE\C# CODE\Buoi3\Bai1\Bai1\bin\Debug\Bai1.pdb
+C:\CODE\CODE\C# CODE\Buoi3\Bai1\Bai1\obj\Debug\Bai1.csprojAssemblyReference.cache
+C:\CODE\CODE\C# CODE\Buoi3\Bai1\Bai1\obj\Debug\Bai1.Bai01.resources
+C:\CODE\CODE\C# CODE\Buoi3\Bai1\Bai1\obj\Debug\Bai1.Form1.resources
+C:\CODE\CODE\C# CODE\Buoi3\Bai1\Bai1\obj\Debug\Bai1.Properties.Resources.resources
+C:\CODE\CODE\C# CODE\Buoi3\Bai1\Bai1\obj\Debug\Bai1.UDPClient.resources
+C:\CODE\CODE\C# CODE\Buoi3\Bai1\Bai1\obj\Debug\Bai1.csproj.GenerateResource.cache
+C:\CODE\CODE\C# CODE\Buoi3\Bai1\Bai1\obj\Debug\Bai1.exe
+C:\CODE\CODE\C# CODE\Buoi3\Bai1\Bai1\obj\Debug\Bai1.pdb
+C:\CODE\CODE\C# CODE\Buoi3\Bai1\Bai1\obj\Debug\Bai1.UDPServer.resources
