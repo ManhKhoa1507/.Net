@@ -25,7 +25,20 @@ namespace Bai1
 
         private void Bai2_Click(object sender, EventArgs e)
         {
+            telnet bai02 = new telnet();
+            bai02.ShowDialog();
+        }
+
+        private void Bai3_Click(object sender, EventArgs e)
+        {
+            Tcp bai03 = new Tcp();
+            bai03.ShowDialog();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
         }
+
     }
 }

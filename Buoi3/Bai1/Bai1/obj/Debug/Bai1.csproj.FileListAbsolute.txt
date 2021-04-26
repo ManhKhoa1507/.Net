@@ -10,3 +10,4 @@ C:\CODE\CODE\C# CODE\Buoi3\Bai1\Bai1\obj\Debug\Bai1.csproj.GenerateResource.cach
 C:\CODE\CODE\C# CODE\Buoi3\Bai1\Bai1\obj\Debug\Bai1.exe
 C:\CODE\CODE\C# CODE\Buoi3\Bai1\Bai1\obj\Debug\Bai1.pdb
 C:\CODE\CODE\C# CODE\Buoi3\Bai1\Bai1\obj\Debug\Bai1.UDPServer.resources
+C:\CODE\CODE\C# CODE\Buoi3\Bai1\Bai1\obj\Debug\Bai1.telnet.resources
