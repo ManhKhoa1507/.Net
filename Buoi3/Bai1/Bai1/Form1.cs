@@ -16,6 +16,10 @@ namespace Bai1
         {
             InitializeComponent();
         }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
 
         private void Bai1_Click(object sender, EventArgs e)
         {
@@ -35,10 +39,10 @@ namespace Bai1
             bai03.ShowDialog();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Bai4_Click(object sender, EventArgs e)
         {
-
+            MultiTCP bai04 = new MultiTCP();
+            bai04.ShowDialog();
         }
-
     }
 }

@@ -58,6 +58,24 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="MultipleClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultipleClient.Designer.cs">
+      <DependentUpon>MultipleClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultipleServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultipleServer.Designer.cs">
+      <DependentUpon>MultipleServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultiTCP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultiTCP.Designer.cs">
+      <DependentUpon>MultiTCP.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tcp.cs">
@@ -65,6 +83,18 @@
     </Compile>
     <Compile Include="Tcp.Designer.cs">
       <DependentUpon>Tcp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TCPClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TCPClient.Designer.cs">
+      <DependentUpon>TCPClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TCPServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TCPServer.Designer.cs">
+      <DependentUpon>TCPServer.cs</DependentUpon>
     </Compile>
     <Compile Include="telnet.cs">
       <SubType>Form</SubType>
@@ -90,6 +120,15 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MultipleClient.resx">
+      <DependentUpon>MultipleClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultipleServer.resx">
+      <DependentUpon>MultipleServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultiTCP.resx">
+      <DependentUpon>MultiTCP.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -99,6 +138,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Tcp.resx">
+      <DependentUpon>Tcp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TCPClient.resx">
+      <DependentUpon>TCPClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TCPServer.resx">
+      <DependentUpon>TCPServer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="telnet.resx">
       <DependentUpon>telnet.cs</DependentUpon>
     </EmbeddedResource>

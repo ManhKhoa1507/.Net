@@ -16,5 +16,17 @@ namespace Bai1
         {
             InitializeComponent();
         }
+
+        private void client_Click(object sender, EventArgs e)
+        {
+            TCPClient tcpClient = new TCPClient();
+            tcpClient.Show();
+        }
+
+        private void server_Click(object sender, EventArgs e)
+        {
+            TCPServer tcpServer = new TCPServer();
+            tcpServer.Show();
+        }
     }
 }
