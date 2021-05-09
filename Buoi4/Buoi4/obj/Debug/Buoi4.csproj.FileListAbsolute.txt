@@ -1,0 +1,11 @@
+C:\CODE\CODE\C# CODE\Buoi4\Buoi4\bin\Debug\Buoi4.exe.config
+C:\CODE\CODE\C# CODE\Buoi4\Buoi4\bin\Debug\Buoi4.exe
+C:\CODE\CODE\C# CODE\Buoi4\Buoi4\bin\Debug\Buoi4.pdb
+C:\CODE\CODE\C# CODE\Buoi4\Buoi4\obj\Debug\Buoi4.csprojAssemblyReference.cache
+C:\CODE\CODE\C# CODE\Buoi4\Buoi4\obj\Debug\Buoi4.Form1.resources
+C:\CODE\CODE\C# CODE\Buoi4\Buoi4\obj\Debug\Buoi4.Properties.Resources.resources
+C:\CODE\CODE\C# CODE\Buoi4\Buoi4\obj\Debug\Buoi4.csproj.GenerateResource.cache
+C:\CODE\CODE\C# CODE\Buoi4\Buoi4\obj\Debug\Buoi4.exe
+C:\CODE\CODE\C# CODE\Buoi4\Buoi4\obj\Debug\Buoi4.pdb
+C:\CODE\CODE\C# CODE\Buoi4\Buoi4\obj\Debug\Buoi4.Bai1.resources
+C:\CODE\CODE\C# CODE\Buoi4\Buoi4\obj\Debug\Buoi4.Bai2.resources
