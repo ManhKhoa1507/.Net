@@ -9,3 +9,5 @@ C:\CODE\CODE\C# CODE\Buoi4\Buoi4\obj\Debug\Buoi4.exe
 C:\CODE\CODE\C# CODE\Buoi4\Buoi4\obj\Debug\Buoi4.pdb
 C:\CODE\CODE\C# CODE\Buoi4\Buoi4\obj\Debug\Buoi4.Bai1.resources
 C:\CODE\CODE\C# CODE\Buoi4\Buoi4\obj\Debug\Buoi4.Bai2.resources
+C:\CODE\CODE\C# CODE\Buoi4\Buoi4\obj\Debug\Buoi4.Bai3.resources
+C:\CODE\CODE\C# CODE\Buoi4\Buoi4\obj\Debug\Buoi4.Bai4.resources

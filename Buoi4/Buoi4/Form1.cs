@@ -28,5 +28,17 @@ namespace Buoi4
             Bai2 bai02 = new Bai2();
             bai02.ShowDialog();
         }
+
+        private void Bai03_Click(object sender, EventArgs e)
+        {
+            Bai3 bai03 = new Bai3();
+            bai03.ShowDialog();
+        }
+
+        private void Bai04_Click(object sender, EventArgs e)
+        {
+            Bai4 bai04 = new Bai4();
+            bai04.ShowDialog();
+        }
     }
 }
